@@ -8,7 +8,7 @@ Resources:
       BucketName: Seif-elwesemy-2025
 
   PublicAccessBlock:
-    Type: "AWS::S3::BucketPublicAccessBlock"
+    Type: "AWS::S3::Bucket"
     Properties:
       Bucket: !Ref MyS3Bucket
       BlockPublicAcls: true
