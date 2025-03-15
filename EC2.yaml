@@ -9,8 +9,7 @@ Resources:
       CidrBlock: "10.0.0.0/16"
       Tags:
         - Key: Name
-          Value: seif-vpc
-	  
+          Value: seif-vpc	  
   MySubnet:
     Type: "AWS::EC2::Subnet"
     Properties:
@@ -20,7 +19,6 @@ Resources:
       Tags:
         - Key: Name
           Value: seif-subnet-east1	  
-
 
   MyInternetGateway:
     Type: "AWS::EC2::InternetGateway"
