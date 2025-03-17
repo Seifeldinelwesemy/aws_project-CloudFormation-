@@ -114,11 +114,6 @@ Resources:
     Type: "AWS::S3::Bucket"
     Properties:
       BucketName: seifelwesemyproject123
-   
-  BucketVersioning:
-    Type: "AWS::S3::BucketVersioning"
-    Properties:
-      Bucket: !Ref MyS3Bucket
       VersioningConfiguration:
         Status: Enabled
 
